@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#3b82f6"/>
+      <stop offset="80%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="favStem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#0f111a"/>
+  <!-- Stem -->
+  <path d="M 24, 45 C 24, 38 29, 34 36, 36 L 46, 39 C 50, 40 52, 44 52, 48 L 48, 72 C 47, 76 43, 80 39, 80 L 32, 80 C 27, 80 24, 76 24, 71 Z" fill="url(#favStem)"/>
+  <!-- Ribbon Loop -->
+  <path d="M 26, 32 C 28, 18 42, 8 58, 8 C 74, 8 86, 18 86, 34 C 86, 50 72, 62 54, 64 L 40, 66 C 45, 62 54, 58 64, 52 C 74, 46 80, 38 78, 30 C 76, 20 66, 16 54, 16 C 40, 16 30, 24 28, 33 Z" fill="url(#favRibbon)"/>
+  <!-- Sparkle star -->
+  <path d="M 37, 52 C 37.3, 55 39, 56.7 42, 57 C 39, 57.3 37.3, 59 37, 62 C 36.7, 59 35, 57.3 32, 57 C 35, 56.7 36.7, 55 37, 52 Z" fill="#ffffff"/>
+  <!-- Rays -->
+  <line x1="88" y1="20" x2="94" y2="16" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="91" y1="29" x2="98" y2="29" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="88" y1="38" x2="94" y2="42" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

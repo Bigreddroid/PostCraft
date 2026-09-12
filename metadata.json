@@ -1,0 +1,6 @@
+{
+  "name": "PostCraft AI",
+  "description": "Cross-platform social media content generator for LinkedIn, Twitter/X, and Instagram with platform-tailored AI visuals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
